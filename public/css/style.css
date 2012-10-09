@@ -1,0 +1,429 @@
+/* CSS Document */ /*Mohamad Cheaib*/
+	/* ///////////////////////// COMMON ////////////////////// */
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #f0f0f0;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	outline: 0 none;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.white a {
+	color: #FFFFFF;
+}
+
+.black {
+	color: #392328;
+}
+
+.black a {
+	color: #392328;
+}
+
+.font8px {
+	font-size: 8px;
+}
+
+.font9px {
+	font-size: 9px;
+}
+
+.font10px {
+	font-size: 10px;
+}
+
+.font11px {
+	font-size: 11px;
+}
+
+.font12px {
+	font-size: 12px;
+}
+
+.font13px {
+	font-size: 13px;
+}
+
+.font14px {
+	font-size: 14px;
+}
+
+.font15px {
+	font-size: 15px;
+}
+
+.font16px {
+	font-size: 16px;
+}
+
+.font17px {
+	font-size: 17px;
+}
+
+.font18px {
+	font-size: 18px;
+}
+
+.font19px {
+	font-size: 19px;
+}
+
+.font20px {
+	font-size: 20px;
+}
+
+.font23px {
+	font-size: 23px;
+}
+
+.font22px {
+	font-size: 22px;
+}
+
+.font24px {
+	font-size: 24px;
+}
+
+.font25px {
+	font-size: 25px;
+}
+
+.font30px {
+	font-size: 30px;
+}
+
+.font34px {
+	font-size: 34px;
+}
+
+.font35px {
+	font-size: 35px;
+}
+
+.font86px {
+	font-size: 86px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.verdana {
+	font-family: verdana;
+}
+
+.div {
+	border: solid;
+	border-color: #63605f;
+	border-width: thin;
+}
+
+.tahoma {
+	font-family: tahoma;
+}
+
+.arial {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.times {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+/*span.skype_pnh_container {
+	display: none !important;
+}
+
+span.skype_pnh_print_container {
+	display: inline-block !important;
+}*/ /****************PAGING********************/
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+
+div.pagination a:hover,div.pagination a:active {
+	border: 1px solid #000099;
+	color: #000;
+}
+
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000099;
+	font-weight: bold;
+	background-color: #000099;
+	color: #FFF;
+}
+
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #EEE;
+	color: #DDD;
+}
+
+/*************************************************************************/
+.headerSlide {
+	background: #00619d;
+	
+	line-height: 26px;
+}
+.redheaderSlide{
+	background: #d90000;
+	
+	line-height: 26px;
+	}
+
+
+.amaranth {
+	font-family: 'amaranth';
+}
+
+.inputSearch {
+	background: none;
+	width: 212px;
+	height: 26px;
+	border: 0px;
+	line-height: : 28px;
+	padding-left: 5px;
+	font-family: tahoma;
+	font-size: 13px;
+	color: #8a9194;
+}
+
+.bgSearch {
+	background: url(../images/input-search.gif) no-repeat;
+	width: 217px;
+	height: 28px;
+	position: relative;
+}
+
+.bgMenu {
+	background: url(../images/bg-menu.gif);
+	height: 50px;
+	background-repeat: repeat-x;
+}
+
+.menuBorder {
+	border-left: 1px solid #c4c4c4;
+}
+
+.gray {
+	color: #757575;
+}
+
+.gray a {
+	color: #757575;
+}
+
+.gray a:hover {
+	color: #0069aa;
+}
+
+
+
+.redgray {
+	color: #757575;
+}
+
+.redgray a {
+	color: #757575;
+}
+
+.redgray a:hover {
+	color: #d90000;
+}
+
+.grayDark {
+	color: #3f4a52;
+}
+
+.grayDark a {
+	color: #3f4a52;
+}
+
+.blue {
+	color: #0069aa;
+}
+
+.blue a {
+	color: #0069aa;
+}
+
+.grayLight {
+	color: #a1a0a0;
+}
+
+.grayLight a {
+	color: #a1a0a0;
+}
+
+.tabBlue {
+	background: url(../images/tab-big.png) no-repeat;
+	width: 1000px;
+	height: 38px;
+	line-height: 38px;
+}
+
+.tabRed {
+	background: url(../images/tab-big-red.png) no-repeat;
+	width: 1000px;
+	height: 38px;
+	line-height: 38px;
+}
+
+.container {
+	border: 1px solid #e4e4e4;
+	border-bottom: 0px;
+}
+
+.bgGal {
+	background: url(../images/bg-gal.gif) repeat-x;
+	height: 189px;
+}
+
+.bgCaption {
+	background: url(../images/bg-cap.png) repeat;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.blueLight {
+	color: #a6d1ea;
+}
+
+.blueLight a {
+	color: #a6d1ea;
+}
+
+.blueDark {
+	color: #004c7c;
+}
+
+.blueDark a {
+	color: #004c7c;
+}
+
+.inputContact {
+	border: 2px solid #b0b4bc;
+	width: 468px;
+	height: 22px;
+	padding-left: 5px;
+	color: #666666;
+}
+
+.red {
+	color: #a51030;
+}
+
+.red a {
+	color: #a51030;
+}
+
+.grayBorder {
+	border: 1px solid #e2e2e2;
+}
+
+.map {
+	background: url(../images/map.png) no-repeat top;
+	right: 0px;
+	width: 301px;
+}
+
+.lightColor {
+	color: #d5d8d9;
+}
+
+.bgOffer {
+	background: url(../images/bg-offer.png) no-repeat;
+	height: 489px;
+	width: 365px;
+}
+
+.bluebigBg {
+	background: url(../images/blue-big-bg.png) no-repeat;
+	width: 1000px;
+	height: 38px;
+	line-height: 38px;
+}
+
+.bgBlueLight {
+	background: url(../images/bg-blue-light.gif) no-repeat;
+	width: 1000px;
+	height: 191px;
+}
+
+.bgTestimonial {
+	background: url(../images/bg-testimonials.png);
+	width: 310px;
+	height: 313px;
+}
+
+.yellow {
+	color: #fffc00;
+}
+
+.yellow a {
+	color: #fffc00;
+}
+
+.activePage {
+	background: url("../images/activePage.png");
+	background-repeat: no-repeat;
+	width: 23px;
+	height: 22px;
+}
+
+.inActivePage {
+	background: url("../images/inActivePage.png");
+	background-repeat: no-repeat;
+	width: 23px;
+	height: 22px;
+}
+
+.offerClass{
+	height: 35px;
+	overflow: hidden;
+}
+.offerClass:Hover{
+	height: 246px;
+}
+.buttonSend{
+
+	background: url("../images/send-btn.png");
+	width: 87px;
+	height: 31px;
+	background-repeat: no-repeat;
+	border: 0px;
+}

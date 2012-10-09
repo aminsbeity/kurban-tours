@@ -1,0 +1,21 @@
+RSS Reader CONTENTS
+------------------------------------
+
+rsslib.php                 The library to include.
+rss-direct.php          Demo, embedding a feed in a page. Displays the date.
+rss-direct-site.php   Same demo, display the channel, date not displayed.
+rss-links.php            Demo, enter a feed from the form.
+rss-single.php         Demo, enter a feed to be embedded into the same page.
+rss-twice.php          Demo, enter a feed to be embedded into another page.
+rss-get.php             Demo, give a feed as a parameter to a web page. 
+rss-style.css           A style demo.
+
+MPL-1.1.html         The licence.
+rss.xml                    A test file.
+CONTENTS.txt      This file.
+
+Manuals:
+English: http://www.scriptol.com/rss/rss-reader.php
+Français: http://www.scriptol.fr/rss/lecteur-rss.php
+
+(c) 2007-2010 Scriptol.com

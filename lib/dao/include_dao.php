@@ -1,0 +1,61 @@
+<?php
+	//include all DAO files
+	require_once('class/sql/Connection.class.php');
+	require_once('class/sql/ConnectionFactory.class.php');
+	require_once('class/sql/ConnectionProperty.class.php');
+	require_once('class/sql/QueryExecutor.class.php');
+	require_once('class/sql/Transaction.class.php');
+	require_once('class/sql/SqlQuery.class.php');
+	require_once('class/core/ArrayList.class.php');
+	require_once('class/dao/DAOFactory.class.php');
+ 	
+	require_once('class/dao/DestinationDAO.class.php');
+	require_once('class/dto/Destination.class.php');
+	require_once('class/mysql/DestinationMySqlDAO.class.php');
+	require_once('class/mysql/ext/DestinationMySqlExtDAO.class.php');
+	require_once('class/dao/DmcBrochureDAO.class.php');
+	require_once('class/dto/DmcBrochure.class.php');
+	require_once('class/mysql/DmcBrochureMySqlDAO.class.php');
+	require_once('class/mysql/ext/DmcBrochureMySqlExtDAO.class.php');
+	require_once('class/dao/DmcContactDAO.class.php');
+	require_once('class/dto/DmcContact.class.php');
+	require_once('class/mysql/DmcContactMySqlDAO.class.php');
+	require_once('class/mysql/ext/DmcContactMySqlExtDAO.class.php');
+	require_once('class/dao/DmcProductDAO.class.php');
+	require_once('class/dto/DmcProduct.class.php');
+	require_once('class/mysql/DmcProductMySqlDAO.class.php');
+	require_once('class/mysql/ext/DmcProductMySqlExtDAO.class.php');
+	require_once('class/dao/LatestNewsDAO.class.php');
+	require_once('class/dto/LatestNew.class.php');
+	require_once('class/mysql/LatestNewsMySqlDAO.class.php');
+	require_once('class/mysql/ext/LatestNewsMySqlExtDAO.class.php');
+	require_once('class/dao/OfferDAO.class.php');
+	require_once('class/dto/Offer.class.php');
+	require_once('class/mysql/OfferMySqlDAO.class.php');
+	require_once('class/mysql/ext/OfferMySqlExtDAO.class.php');
+	require_once('class/dao/OfficeDAO.class.php');
+	require_once('class/dto/Office.class.php');
+	require_once('class/mysql/OfficeMySqlDAO.class.php');
+	require_once('class/mysql/ext/OfficeMySqlExtDAO.class.php');
+	require_once('class/dao/PartnerDAO.class.php');
+	require_once('class/dto/Partner.class.php');
+	require_once('class/mysql/PartnerMySqlDAO.class.php');
+	require_once('class/mysql/ext/PartnerMySqlExtDAO.class.php');
+	require_once('class/dao/ProductDAO.class.php');
+	require_once('class/dto/Product.class.php');
+	require_once('class/mysql/ProductMySqlDAO.class.php');
+	require_once('class/mysql/ext/ProductMySqlExtDAO.class.php');
+	require_once('class/dao/ProductServiceDAO.class.php');
+	require_once('class/dto/ProductService.class.php');
+	require_once('class/mysql/ProductServiceMySqlDAO.class.php');
+	require_once('class/mysql/ext/ProductServiceMySqlExtDAO.class.php');
+	require_once('class/dao/StaticPageDAO.class.php');
+	require_once('class/dto/StaticPage.class.php');
+	require_once('class/mysql/StaticPageMySqlDAO.class.php');
+	require_once('class/mysql/ext/StaticPageMySqlExtDAO.class.php');
+	require_once('class/dao/TestimonialDAO.class.php');
+	require_once('class/dto/Testimonial.class.php');
+	require_once('class/mysql/TestimonialMySqlDAO.class.php');
+	require_once('class/mysql/ext/TestimonialMySqlExtDAO.class.php');
+
+?>
